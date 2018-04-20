@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(RangeValue)
+set(CMAKE_CXX_STANDARD 14)
+include_directories(inc)
+add_library(RangeValue STATIC src/RangeValue.cpp)
+add_subdirectory(tests)
